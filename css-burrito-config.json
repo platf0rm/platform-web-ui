@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "root": {
+      "pathToSassDirectory": "./",
+      "sassDirectory": "src",
+      "sassImportFile": "app.scss"
+    },
+    "modules": {
+      "modulesDirectory": "modules",
+      "modulesImportFile": "_modules.scss",
+      "moduleFiles": [
+        "_topbar.scss"
+      ]
+    }
+  },
+  "template": {
+    "directories": [
+      "global",
+      "libs",
+      "views"
+    ],
+    "files": [
+      "app.js",
+      "global\\_base.scss",
+      "global\\_layout.scss",
+      "global\\_settings.scss",
+      "global\\_skin.scss",
+      "global\\_typography.scss",
+      "global\\_utilities.scss",
+      "libs\\_library-variable-overrides.scss",
+      "views\\index.ejs"
+    ]
+  }
+}
