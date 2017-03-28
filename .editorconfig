@@ -1,0 +1,20 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+indent_size = 2
+#
+#[*.{htm,html,ejs,jade,pug}]
+#indent_size = 3
+#
+#[*.{scss,sass,css,styl}]
+#indent_size = 3
+#
+#[*.{js,jsx,coffee}]
+#indent_size = 3
+#
+#[*.{json,xml,yml}]
+#indent_size = 3
