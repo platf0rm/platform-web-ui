@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Thread</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <nav class="nav has-shadow">
+            <div class="nav-left">
+                <a class="nav-item">
+                    <span class="title is-4">SARAP</span>
+                </a>
+            </div>
+
+            <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+            <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+            <span class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+            <!-- This "nav-menu" is hidden on mobile -->
+            <!-- Add the modifier "is-active" to display it on mobile -->
+            <div class="nav-right nav-menu">
+                <a class="nav-item">
+                Hot
+                </a>
+                <a class="nav-item">
+                Trending
+                </a>
+
+                <span class="nav-item">
+                    <a class="button is-primary">
+                        <span class="icon">
+                        <i class="fa fa-mobile"></i>
+                        </span>
+                        <span>Get Our App!</span>
+                    </a>
+                </span>
+            </div>
+            </nav>
+    </header>
+
+    <main >
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <header class="card-headr is-clearfix">
+                            <span class="card-headr-item is-pulled-left">
+                            Thread No. 1
+                            </span>
+                            <span class="card-headr-item is-pulled-left">
+                                <small>4/7/2017 21:09</small>
+                            </span>
+                            <span class="card-headr-item is-pulled-left">
+                                <span class="counter">99,999</span>
+                                <span class="counter">99,999</span>
+                                <span class="counter">99,999</span>
+                            </span>
+                            <a class="card-headr-icon is-pulled-right">
+                                <span class="icon">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                            </a>
+
+                        </header>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-80x80">
+                                        <img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Parinig naman ng rap mo! sample naman d'yan</p>
+                                    <p class="subtitle is-6">Ang ganda ng cap mo, arbor nalang yan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- card -->
+                    <div class="section">
+                        <ul class="thread-options">
+                            <li>
+                                <a href="#">
+                                    <span>Report</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Post A Reply</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-narrow" style="width: 500px;">
+                            <div class="card">
+                                    <header class="card-header">
+                                    <p class="card-header-title">
+                                        <i class="fa fa-long-arrow-up fa-fw"></i>In Reply To
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="field is-grouped">
+                                        <p class="control is-expanded">
+                                            <input class="input" type="text" placeholder="Name">
+                                        </p>
+                                        <p class="control">
+                                            <a class="button is-primary">
+                                            Upload
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div class="field">
+                                        <p class="control">
+                                            <textarea class="textarea" placeholder="Message"></textarea>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="thread-list">
+                        <li>
+                            <div class="card is-narrow">
+                                <header class="card-headr is-clearfix">
+                                    <span class="card-headr-item is-pulled-left">
+                                    Post No. 1
+                                    </span>
+                                    <span class="card-headr-item is-pulled-left">
+                                        <small>4/7/2017 21:09</small>
+                                    </span>
+                                    <span class="card-headr-item is-pulled-left">
+                                        <span class="counter">99,999</span>
+                                        <span class="counter">99,999</span>
+                                        <span class="counter">99,999</span>
+                                    </span>
+                                    <a class="card-headr-icon is-pulled-right">
+                                        <span class="icon">
+                                            <i class="fa fa-angle-down"></i>
+                                        </span>
+                                    </a>
+                                </header>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-80x80">
+                                                <img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p>Sige pumasok ka sa loob ng aking utak utak u-takbo!Sige bilisan mo pa hanggang sa madapaka kasi ang kupad kupad mo TAKBO!Para di ka maabutan, kinikilabutan, kinatatakutan MO!Kapag nahuli ka patay kang bata ka na para bang nakunan sa sinapupunan UGH Isa, dalawa, tatlo kilala bilang mga sira ulo halatang inakala ng iba na 'di makapangyarihan ang mga ginayuma Waaa-sak ang mga talukap ng mga masangsang na alamang at talakang walang alam at halatang nagtatakang maghatakan nang pababa ng pababa lang hanggan sa hangganan na WALANG HANGGAN!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- card -->
+                            <ul class="children">
+                                <li>
+                                    <div class="card is-narrow">
+                                        <header class="card-headr is-clearfix">
+                                            <span class="card-headr-item is-pulled-left">
+                                            Thread No. 1
+                                            </span>
+                                            <span class="card-headr-item is-pulled-left">
+                                                <small>4/7/2017 21:09</small>
+                                            </span>
+                                            <span class="card-headr-item is-pulled-left">
+                                                <span class="counter">99,999</span>
+                                                <span class="counter">99,999</span>
+                                                <span class="counter">99,999</span>
+                                            </span>
+                                            <a class="card-headr-icon is-pulled-right">
+                                                <span class="icon">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                            </a>
+                                        </header>
+                                        <div class="card-content">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <figure class="image is-80x80">
+                                                        <img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+                                                    </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                    <p class="title is-4">Parinig naman ng rap mo! sample naman d'yan</p>
+                                                    <p class="subtitle is-6">Ang ganda ng cap mo, arbor nalang yan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- card -->
+                                    <div class="card is-narrow" style="width: 500px;">
+                                            <header class="card-header">
+                                            <p class="card-header-title">
+                                                <i class="fa fa-long-arrow-up fa-fw"></i>In Reply To
+                                            </p>
+                                        </header>
+                                        <div class="card-content">
+                                            <div class="field is-grouped">
+                                                <p class="control is-expanded">
+                                                    <input class="input" type="text" placeholder="Name">
+                                                </p>
+                                                <p class="control">
+                                                    <a class="button is-primary">
+                                                    Upload
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="field">
+                                                <p class="control">
+                                                    <textarea class="textarea" placeholder="Message"></textarea>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                        
+
+                </div> <!-- column is-three-quarters -->
+                        
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer has-shadow">
+        <div class="container">
+        <div class="content has-text-centered">
+        <p>
+        <strong>SARAP</strong> by <a href="http://jgthms.com">PLATF0RM</a>.
+        </p>
+        </div>
+        </div>
+    </footer>
+
+</body>
+</html>

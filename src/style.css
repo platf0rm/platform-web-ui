@@ -40,6 +40,7 @@ main {
 
 main {
     padding: 30px 0;
+    background-color: #fbfbfb;
 }
 
 .is-80x80 {
@@ -49,4 +50,30 @@ main {
 
 .card {
     margin-bottom: 20px;
+}
+
+.footer.has-shadow {
+    box-shadow: 0px -2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.thread-options {
+    text-align: center;
+}
+
+.thread-options li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.section {
+    padding: 2rem 1.5rem;
+    background: transparent;
+}
+
+.card.is-narrow {
+    display: inline-block;
+}
+
+.thread-list .children {
+    margin-left: 4rem;
 }
