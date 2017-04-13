@@ -1,8 +1,5 @@
-/**
- * Script description.
- * @author TheoryOfNekomata
- * @date 2017-03-27
- */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Sarap from './Sarap';
 
-require('./app.scss');
-
+ReactDOM.render(<Sarap />, document.body);
