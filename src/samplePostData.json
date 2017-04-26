@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "postId": 1,
+      "dateCreated": 1492930174,
+      "dateUpdated": 1492930175,
+      "title": "Title 1",
+      "text": "Kapag sinabi ko lahat ng nasa isip ko malamang Ako'y mapapagkamalang walang pusong nilalang Ngunit pag ginawa ko naman lahat ng gusto ko mukhang Ako'y magmimistulang may turnilyong kulang at mangmang",
+      "media": {
+        "type": "image",
+        "dateCreated": 1492930175,
+        "url": "/img/dummy.png"
+      },
+      "comments": [
+        {
+          "postId": 4,
+          "text": "May mga bagay sa mundo",
+          "dateCreated": 1492930174,
+          "dateUpdated": 1492930175,
+          "media": {
+            "type": "image",
+            "dateCreated": 1492930175,
+            "url": "/img/dummy.png"
+          }
+        },
+        {
+          "postId": 5,
+          "text": "iba't ibang hilig at gusto",
+          "dateCreated": 1492930174,
+          "dateUpdated": 1492930175,
+          "media": {
+            "type": "image",
+            "dateCreated": 1492930175,
+            "url": "/img/dummy.png"
+          }
+        },
+        {
+          "postId": 6,
+          "text": "buksan ang puso at ang isipan",
+          "dateCreated": 1492930174,
+          "dateUpdated": 1492930175
+        }
+      ]
+    },
+    {
+      "postId": 2,
+      "dateCreated": 1492930175,
+      "dateUpdated": 1492930176,
+      "title": "Title 2",
+      "text": "Ang hirap tantyahin ng mga sukat at timbang Ng puso kong uto-uto at utak na mapanlinlang Ang hirap tantyahin ng mga sukat at timbang Ng puso kong uto-uto at utak na mapanlinlang",
+      "media": {
+        "type": "image",
+        "dateCreated": 1492930175,
+        "url": "/img/dummy.png"
+      }
+    },
+    {
+      "postId": 3,
+      "dateCreated": 1492930176,
+      "dateUpdated": 1492930177,
+      "title": "Title 3",
+      "text": "May mga bagay sa mundo Iba't ibang hilig at gusto Tulad ng puso at ng isipan Na bibihirang magkasundo Madumi nga lang ba ang utak o baka tama ang kutob Kanino nga ba ko susunod? Tingin paloob",
+      "media": {
+        "type": "image",
+        "dateCreated": 1492930175,
+        "url": "/img/dummy.png"
+      }
+    }
+  ]
+}
