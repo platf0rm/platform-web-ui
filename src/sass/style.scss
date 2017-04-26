@@ -1,0 +1,106 @@
+// 1. Import the initial variables
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb;
+// Add a serif family
+$family-serif: "Merriweather", "Georgia", serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: #66C6BA;
+// Use the existing orange as the danger color
+$danger: $orange;
+// Use the new serif family
+$family-primary: $family-serif;
+
+
+// 4. Import the rest of Bulma
+@import "../../node_modules/bulma/bulma";
+
+$background: #649DAD;
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section, body {
+  background-color: #f3f3f3;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav {
+  background-color: $background;
+}
+
+.footer {
+  background-color: $background;
+  padding: 1rem 1.5rem;
+  .content {
+    color: white;
+  }
+}
+
+.nav-item a,
+a.nav-item {
+  color: white;
+}
+
+.pagination {
+  margin: 2.0rem -0.25rem;
+}
+
+.card {
+  margin-bottom: 20px;
+
+  .card-headr {
+    padding: 0.8rem;
+
+    .card-headr-item {
+      padding: 0 15px;
+    }
+  }
+
+  &.is-narrow {
+    display: inline-block;
+  }
+}
+
+.counter {
+  margin-right: 5px;
+
+  &:not(:first-child):before {
+      content: '/';
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+  }
+}
+
+.thread-options {
+  text-align: center;
+
+  li {
+    display: inline-block;
+  }
+
+  li:first-child {
+    margin-right: 20px;
+  }
+
+  li:nth-child(2) {
+    margin-left: 20px;
+  }
+}
+
+.thread-list {
+  .children {
+    margin-left: 20px;
+  }
+}

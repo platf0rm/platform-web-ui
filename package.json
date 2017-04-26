@@ -5,9 +5,10 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "node ./bin/www",
-	"build": "webpack",
-	"build:watch": "webpack --watch",
-    "webpack": "node_modules\\.bin\\webpack"
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "webpack": "node_modules\\.bin\\webpack",
+    "sass": "sass --watch src/sass/style.scss:public/css/style-override.css"
   },
   "repository": {
     "type": "git",
@@ -20,17 +21,21 @@
   },
   "dependencies": {
     "body-parser": "~1.17.1",
+    "bulma": "jgthms/bulma",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "font-awesome": "^4.7.0",
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
+    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-router": "^2.8.1",
     "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
-	"css-loader": "^0.27.3",
+    "css-loader": "^0.27.3",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
@@ -51,12 +56,17 @@
     "babel-preset-react": "^6.23.0"
   },
   "homepage": "https://github.com/platf0rm/platform#readme",
-  "dependencies": {
-    "bulma": "^0.4.0",
-    "font-awesome": "^4.7.0"
-  },
   "eslintConfig": {
     "root": true,
-    "extends": "eslint-config-airbnb"
+    "extends": "eslint-config-airbnb",
+    "globals": {
+      "document": true
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "windows"
+      ]
+    }
   }
 }

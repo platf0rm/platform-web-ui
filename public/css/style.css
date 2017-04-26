@@ -1,0 +1,12 @@
+a {
+  color: #00B7FF;
+}
+
+.nav.has-shadow {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.2);
+}
+
+
+main {
+  margin: 50px 0;
+}

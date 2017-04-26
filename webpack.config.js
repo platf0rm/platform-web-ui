@@ -4,18 +4,18 @@
 
 const path = require('path');
 
-//const HtmlWebpackPlugin = require('html-webpack-plugin');
-//const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 //  template: './client/index.html',
 //  filename: 'index.html',
 //  inject: 'body'
-//})
+// })
 
 module.exports = {
-    entry: './src/app.js',
+    entry: './src/App.jsx',
     output: {
         path: path.resolve('public/js'),
-        filename: 'index_bundle.js'
+        filename: 'bundle.js',
     },
     module: {
         loaders: [

@@ -42,4 +42,4 @@ typings/
 *.tgz
 .yarn-integrity
 .env
-public/
+.sass-cache/
